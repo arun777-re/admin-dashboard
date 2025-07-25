@@ -1,4 +1,4 @@
-import React,{Suspense, lazy} from 'react';
+import {Suspense, lazy} from 'react';
 import './styles/app.scss';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import BarCharts from './pages/charts/BarCharts';
@@ -21,10 +21,10 @@ const App = () => {
   return (
     <BrowserRouter>
     <Suspense fallback={<Loader/>}>
-
+    
     
     <Routes>
-      <Route path='/admin/dashboard' element={<Dashboard/>}/>
+      <Route path='/' element={<Dashboard/>}/>
       <Route path='/admin/product' element={<Products/>}/>
       <Route path='/admin/customer' element={<Customer/>}/>
       <Route path='/admin/transaction' element={<Transactions/>}/>
