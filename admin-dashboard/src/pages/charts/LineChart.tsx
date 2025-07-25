@@ -20,7 +20,7 @@ const months = [
 ]
 
 
-const LineCharts = () => {
+const LineCharts:React.FC = () => {
   return (
     <div className="adminContainer">
         <AdminSidebar/>

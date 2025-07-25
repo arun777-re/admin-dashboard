@@ -3,7 +3,7 @@ import AdminSidebar from '../../components/AdminSidebar';
 import { DoughnutChart, PieChart } from '../../components/Chart';
 import data from '../../assets/data.json'
 
-const PieCharts = () => {
+const PieCharts:React.FC = () => {
   return (
     <div className="adminContainer">
         <AdminSidebar/>

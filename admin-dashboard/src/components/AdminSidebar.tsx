@@ -6,7 +6,7 @@ import { Link, Location, useLocation } from "react-router-dom";
 import { IconType } from "react-icons";
 import {FaChartBar,FaChartPie,FaChartLine,FaStopwatch, FaGamepad} from 'react-icons/fa'
 
-const AdminSidebar = () => {
+const AdminSidebar:React.FC = () => {
   const location = useLocation();
   return (
     <aside>

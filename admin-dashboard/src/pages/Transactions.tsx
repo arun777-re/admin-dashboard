@@ -70,7 +70,7 @@ const arr : DataType[] = [
   },
 ]
 
-const Transactions = () => {
+const Transactions:React.FC = () => {
 
   const [data] = useState<DataType[]>(arr);
 
